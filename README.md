@@ -23,3 +23,10 @@
 ## 注意事项
 
  如果对 Git 和 GitHub 不太了解，请参考 [Git 官方文档](https://git-scm.com/book/zh/v2) 或者极客时间的[《玩转 Git 三剑客》](https://time.geekbang.org/course/intro/145)视频课程。
+ 
+   
+## 刷题情况  
+| 题号 | 题目 | 难度 | 遍数 |
+| ---- | ---- | ---- | ---- |
+| 26   | 删除排序数组中道德重复项 | 简单    | 1 |
+
