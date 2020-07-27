@@ -13,6 +13,24 @@ A:代码本身和树的定义没有所谓的后继结构，或者说是一个便
 
 3.是泛型递归、树的递归  
 递归写得不好的话，时间复杂度稍高，可以将它们运算过程中的中间结果记录下来，以节省运算时间。  
+递归模板  
+public void recur(int level,int param){
+	int MAX_LEVEL;
+	int newParam;
+	//terminal
+	if(level>MAX_LEVEl){
+		//process result
+		return;
+	}
+	//process current logic
+	process(level,param);
+	//drill down
+	recur(level:level+1,newParam);
+	//restore current status
+}
+public static void process(int level,int param){
+
+}
 
 另外，在刷题的过程中，如果不能关联到相关的数据结构和算法，也可以考虑通过数学归纳法得出它们的递推公式，从而解答。 
 
