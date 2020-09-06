@@ -41,4 +41,6 @@ b.映射
 它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度
 c.集合  
 Map 键值对，key不重复 （python中是dict字典）  
-Set 不重复元素的集合
+Set 不重复元素的集合  
+
+![数据结构](https://github.com/wanxc/AlgorithmQIUZHAO/blob/master/Week_01/pic/4.png)

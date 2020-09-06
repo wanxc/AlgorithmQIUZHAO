@@ -88,6 +88,8 @@ public static void heapSort(int[] array) {
 
 ```  
 
+![数据结构](https://github.com/wanxc/AlgorithmQIUZHAO/blob/master/Week_06/pic/3.png)
+
 2、字符串匹配算法  
 Atoi Java代码模板  
 ```  
