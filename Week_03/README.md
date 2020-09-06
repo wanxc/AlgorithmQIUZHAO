@@ -6,6 +6,21 @@ A:依然使用二分法，将整个半有序数组分成前后两个部分进行
 1.分治、回溯  
 分治Java代码模板  
 ```  
+private static int divide_conquer(Problem problem, ) {
+  
+  if (problem == NULL) {
+    int res = process_last_result();
+    return res;     
+  }
+  subProblems = split_problem(problem)
+  
+  res0 = divide_conquer(subProblems[0])
+  res1 = divide_conquer(subProblems[1])
+  
+  result = process_result(res0, res1);
+  
+  return result;
+}
 
 ```
 
@@ -71,11 +86,3 @@ public int binarySearch(int[] array, int target){
 
 要牢记五毒神掌和四步解题法，可以将自己的思路写在代码注释里面或者是Leetcode的note模块  
 
-## 刷题情况  
-| 题号 |           题目           | 难度  | 遍数 | 解法 | 复杂度 |
-| :--: | :----------------------: | :---: | :--: | :--: | :----: |
-| 26   | 删除排序数组中的重复项   | 简单  |  1   | 暴力 |   O(n) |
-| 94   |    二叉树的中序遍历      | 中等  |  1   | 暴力 |   O(n) |
-| 283  |          移动零          | 简单  |  1   | 暴力 |   O(n) |
-| 11  |     盛最多水的容器        | 中等  |  1   | 暴力 |   O(n) |
- 
